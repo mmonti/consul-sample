@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+#      config:
+#        profile-separator: @
+#        prefix: configuration
+
+logging:
+  level: debug
